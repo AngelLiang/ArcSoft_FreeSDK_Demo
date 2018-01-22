@@ -146,7 +146,8 @@ if __name__ == u'__main__':
 
         inputImg = loadYUVImage(filePath, yuv_width, yuv_height, yuv_format)
     else:
-        filePath = u'003.jpg'
+        #filePath = u'003.jpg'
+        filePath = u'lena.bmp'
 
         inputImg = loadImage(filePath)
 
